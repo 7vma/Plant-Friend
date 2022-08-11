@@ -20,8 +20,10 @@ seedling
 
 seedling with leaves
 
-(https://i.imgur.com/9ZcGXk1.png)
+![alt text](https://i.imgur.com/9ZcGXk1.png)
+
 baby plant
+
 mature plant
 
 *****************************************************************VARIATIONS******************************************************************
