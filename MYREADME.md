@@ -15,8 +15,11 @@ Depending on your choice between plant or cactus, you may find that they require
 stages
 
 seed
+
 seedling
+
 seedling with leaves
+
 (https://i.imgur.com/9ZcGXk1.png)
 baby plant
 mature plant
