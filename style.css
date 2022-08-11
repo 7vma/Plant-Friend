@@ -5,7 +5,8 @@ body {
 .top {
     font-family: 'Gloria Hallelujah', cursive;
     background-color:rgba(239, 239, 239, .8);
-    border-radius: 5px ;
+    border-radius: 50px ;
+    box-shadow: 10px;
     text-align: center;
     justify-content: center;
     margin: 50px 230px 30px 230px;
@@ -17,15 +18,12 @@ h3 {
     text-align: center;
     margin-top: -45px;
 }
-h4 {
-margin-right: 850px;
-}
 .main {
     height: 350px;
 }
 .bottom {
 background-color:rgba(239, 239, 239, .8);
-margin: 50px 230px 40px 230px;
+margin: 150px 230px 150px 230px;
 border-radius: 5px;
 text-align: center;
 justify-content: center;
@@ -44,20 +42,30 @@ justify-content: center;
     margin-top: 20px;
     margin: 0 00px 0 200px 
 } */
+
 .image3 {
     display: flex;
     justify-content: center;
     height: 500px;
     width: 300px;
-    margin: -100px 0 700px 400px 
+    margin:-1.8in 0 0 335px;
 }
+h4 {
+    text-align: center ;
+    border: 10px, rgba(239, 239, 239, .8);
+    margin-top: 70px;
+    margin-right: 850px;
+    margin-left: 30px;
+    background-color: rgba(239, 239, 239, .8);
+    border-radius: 50px;
+    }
 .plantStats {
     display: flex;
     justify-content: center;
     gap: 30px;
     background-color:rgba(239, 239, 239, .8);
     margin: 0 230px 0 230px;
-    border-radius: 5px;
+    border-radius: 30px;
 }
 .command-buttons{
     text-align: center;
@@ -79,11 +87,22 @@ justify-content: center;
     font-family: 'Gloria Hallelujah', cursive;
 }
 .max {
-margin-right: 5px; 
-margin-left: -30px;   
+    margin-right: 5px; 
+    margin-left: -30px;   
 }
 .stat {
-margin-right: -25px;
+    margin-right: -25px;
+}
+.reset-button{
+    text-align: center;
+    margin-top: -5px;
+    border-radius: 5px;
+    height: 50px;
+    text-shadow: 1px;
+}
+.button4 {
+    border-radius: 50px;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 
