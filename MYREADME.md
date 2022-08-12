@@ -4,6 +4,8 @@ Welcome to "Plant Friend"
 This is a virtual pet style game, where the player has the hard task of not killing his plant.
 This type of game will test your skill to see if you have what it takes to keep your plant alive. 
 
+Play game here
+https://7vma.github.io/Plant-Friend/
 
 *****************************************************************VARIATIONS*************************************************
 
