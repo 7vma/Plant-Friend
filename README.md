@@ -1,4 +1,5 @@
-*****************************************************************INTRO******************************************************
+INTRO
+
 Welcome to "Plant Friend"
 
 This is a virtual pet style game, where the player has the hard task of not killing his plant.
@@ -10,19 +11,12 @@ SCREENSHOT
 
 Technologies used: HTML, CSS, JavaScript, Adobe Illustrator, Adobe Photoshop
 
+
+
 <strong>Play game here<strong>
 https://7vma.github.io/Plant-Friend/
 
-
-*****************************************************************VARIATIONS*************************************************
-
-Plant
-
-- Plants love frequent water but hate too much water. 
-Be careful with how much you water, you may kill your plant!
-- Plants need the sun to stay alive but if you give it too much sun then you will end up killing your plant!
-
-*******************************************************************GAMEPLAY*************************************************
+GAMEPLAY
 
 Start
 - AutoStarts the game and ends when WP or SP reaches 0 or 200.
