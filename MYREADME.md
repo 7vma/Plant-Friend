@@ -1,144 +1,75 @@
-*****************************************************************INTRO***********************************************************************
+*****************************************************************INTRO******************************************************
 Welcome to "Plant Friend"
 
-This is a virtual pet style game, where the only need for a pet here is either a plant or cactus. 
-
-Some pets are way to hard to take care of so why not try a plant? have you already tried and manage to kill that too? then why not try a cactus?
-
-In this game, we made it more simplistic to take care of your plant friend.
-
-We made it harder to kill your plant but not impossible, so treat your plant friend well.
-
-Depending on your choice between plant or cactus, you may find that they require different kind of care.
+This is a virtual pet style game, where the player has the hard task of not killing his plant.
+This type of game will test your skill to see if you have what it takes to keep your plant alive. 
 
 
-stages
-
-seed
-
-seedling
-
-seedling with leaves
-
-![alt text](https://i.imgur.com/9ZcGXk1.png)
-
-baby plant
-
-mature plant
-
-*****************************************************************VARIATIONS******************************************************************
+*****************************************************************VARIATIONS*************************************************
 
 Plant
 
 - Plants love frequent water but hate too much water. 
 Be careful with how much you water, you may kill your plant!
+- Plants need the sun to stay alive but if you give it too much sun then you will end up killing your plant!
 
-
-Cactus
-
-- Cacti can withstand long periods without water. They only require the necessary amount of water and really HATE too much water. 
-If watered too much you may kill your cactus!
-
-
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-2 styles
-
-plant & cactus
-
-Plants
-- like water 
-more often than its counterpart but can dry out if not watered enough.
-
-- like a good mix of sun and shade. too much sun can hurt them.
-
-Cacti
-- cacti can withstand long periods without water. They only require the necessary amount of water and if watered too much you may kill your cactus.
-
--Love direct sun & hate living in darkness
-
-
-
-*******************************************************************GAMEPLAY******************************************************************
-
-Main menu
--Start 
--Tips
-//
-https://www.figma.com/file/5cDM0sBYpktG2j4k708s3t/Plant-Friend?node-id=0%3A1
-//////////////////////////////////////////////////////////////////////
-Tip
-- section gives tips on how to play
-gives brief descriptions on the two types of plant friends you may get
-
--gives descriptions of the commands in the game
-
--getWater
-
--getSun
-
-//////////////////////////////////////////////////////////////////////
+*******************************************************************GAMEPLAY*************************************************
 
 Start
+- AutoStarts the game and ends when WP or SP reaches 0 or 200.
 
-once player has clicked start game will proceed to next window.
+- Re-do button resets the game to the starting point with starting Stats starting back at 100.
 
-next window = Pet selector Window
-//////////////////////////////////////////////////////////////////////
+Main menu
 
-Pet selector Window
+- Tips
+- section gives tips on how to play game
 
-Start option takes you to this window
-
-- gives you the choice from two seeds which both look the same.
-
--- one seed will be a plant 
--- seed2 will be a cactus
-
---- once option is clicked, text prompt will apear 
-"Cool! I wonder what you got!"
-
-it will proceed to next window
+- Plants need water to live if you forget to water your plant friend he might shrivel up and die! If you give your plant friend too much water they can also rot and die!
+WP = Water Points.
+Keep your WP above 0 and below 200 or else you will lose the game.
 
 
-next window = main game menu
-//////////////////////////////////////////////////////////////////////
+- Plants need the sun in order to grow and thrive, at the same time be careful to not give it too much sun or else it can kill your plant.
+SP = Sun Points
+Keep your SP above 0 and below 200 or else you will lose the game.
 
-Main game menu
+each command button takes up a turn
+-each turn lowers WP & SP by 10
 
-TEXT PROMT
-"Treat your seed right so it can grow to its next stage"
+- Water command / button
+gives your plant water.
+Raises WP by 25 points
+- 1 turn is passed and -10WP & -10SP.
 
-- this window will be the main window to where you can see your pet.
-and give you your option of commands.
+- Sunbathe command / button
+Give your plant sun.
+Raises SP by 25 points
+- 1 turn is passed and -10WP & -10SP.
 
--- in order to move forward you in the game a command must be selected
+- Play lofi and chill command / button
+Chills for the turn.
+WP & SP reduction of -10 points.
+- 1 turn is passed and -10WP & -10SP.
+
+- Game Over 
+When WP & SP either reach 0 or 200 the game ends.
+alert goes up with either "Game Over" or "Plant died listening to Lo-fi" depending on which type of loss it was.
+- command Buttons are then disabled
+
+- Re-do Button
+resets the game to the starting point
+refreshes WP & SP back to 100.
+- enables command buttons
 
 
 
--- this window will give you options for commands 
 
 
--water
-
--- water gives it nutrients
-
----too much water can kill your plant
-
-----if you water a cactus 2 times in a row it dies
------if you water a plant 4 times in a row it dies
 
 
--sun
 
---gives it health
 
----too much sun can kill your plant & too little sun can kill your plant
-
-----if your plant gets sun 4 times in a row it will die!
-
------if your cactus doesnt get sun within every 4 turns it will die!
 
 
 

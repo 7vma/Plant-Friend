@@ -1,5 +1,17 @@
 let waterDisplay = document.querySelector(".water")
 let sunDisplay = document.querySelector(".sun")
+
+function resetGame() {
+    if (document.querySelector(".button1").disabled = true) {
+        document.querySelector(".button1").disabled = false;
+        document.querySelector(".button2").disabled = false;
+        document.querySelector(".button3").disabled = false;
+        pluto.waterPoints = 100;
+        pluto.sunPoints = 100;
+        waterDisplay.innerText = pluto.waterPoints
+        sunDisplay.innerText = pluto.sunPoints
+    }
+}
 class Plant {
     constructor(name) {
         this.name = name;
@@ -7,38 +19,31 @@ class Plant {
         this.sunPoints = 100;
     }
     drink() {
-
         this.waterPoints = this.waterPoints + 25;
-        //turn inverval included into each action
+        //turn inverval included into each command
         this.sunPoints = this.sunPoints - 10;
         this.waterPoints = this.waterPoints - 10;
-        // return alert ("*Splash*" + (" WP has increased," + " remember not to overwater!"))
         waterDisplay.innerText = this.waterPoints
         sunDisplay.innerText = this.sunPoints
-
         overKill()
         kill()
     }
-    // plant can have more water. if pet reaches 200 WP or 0 WP, plant dies.
-
 
     sunbathe() {
         this.sunPoints = this.sunPoints + 25;
-        //turn inverval included into each action
+        //turn inverval included into each command
         this.sunPoints = this.sunPoints - 10;
         this.waterPoints = this.waterPoints - 10;
         sunDisplay.innerText = this.sunPoints
         waterDisplay.innerText = this.waterPoints
         overKill()
         kill()
-        //return alert('"nice tan!" ' + "SP has increased, " + "remember not to burn your friend!")
     }
-    // plant doesnt tolerate too much sun. if SP reaches 200 or reaches 0 SP the plant dies.
 
     playMusic() {
         this.sunPoints = this.sunPoints - 15;
         this.waterPoints = this.waterPoints - 15;
-        //turn inverval included into each action
+        //turn inverval included into each command
         this.sunPoints = this.sunPoints - 10;
         this.waterPoints = this.waterPoints - 10;
         waterDisplay.innerText = this.waterPoints
@@ -47,7 +52,6 @@ class Plant {
         kill()
         return alert("*Lo-fi music starts playing in the background*")
     }
-    // play music passes a turn which which causes SP and WP to lower since a move was taken.
 }
 
 const pluto = new Plant("pluto")
@@ -56,7 +60,7 @@ function overKill() {
     if (pluto.waterPoints >= 200 || pluto.sunPoints >= 200) {
         document.querySelector(".button1").disabled = true;
         document.querySelector(".button2").disabled = true;
-        document.querySelector(".button3").disabled = true;  
+        document.querySelector(".button3").disabled = true;
         return alert("GameOver")
     }
 }
@@ -66,18 +70,10 @@ function kill() {
         document.querySelector(".button1").disabled = true;
         document.querySelector(".button2").disabled = true;
         document.querySelector(".button3").disabled = true;
-        alert ("game over!")
+        alert("Plant died listening to Lo-fi")
     }
 
 }
-
-
-// function disableBtn() {
-//     +   drinkBtn.removeEventListener('click', pluto.drink());
-//     +   sunBtn.removeEventListener('click', flipCard);
-//         musicBtn.removeEventListener('click', flipCard);
-//     + }
-
 
 let drinkBtn = document.querySelector(".button1")
 drinkBtn.addEventListener("click", () => pluto.drink())
@@ -93,7 +89,6 @@ musicBtn.addEventListener("click", () => pluto.playMusic())
 // makes playMusic attach to button3
 
 
-// reset button
-
-
-// function if click 4 times to display image attached to each button
+let resetBtn = document.querySelector(".button4")
+resetBtn.addEventListener("click", () => resetGame())
+// resetBtn attached to button4

@@ -143,3 +143,5 @@ You will have a maximum of 10 minutes to present your project following these gu
 - If your instructors determine that your project does not meet the above requirements (denoted using checkboxes), you will be given 3 calendar days to address the deficiencies identified. However, be aware that **there is only a single opportunity to resubmit a project during the course**. For example, if you have to resubmit Project 1, you will not have an opportunity to resubmit Projects 2, 3, or 4.
 - Immediately after your presentation, your instructor and/or outcomes may provide you with feedback that will benefit your project and perhaps the projects of other students as well.
 - If there is a specific section of code that you would like an instructor to provide additional feedback on, please ask!
+
+
