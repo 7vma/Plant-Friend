@@ -72,7 +72,6 @@ function kill() {
         document.querySelector(".button3").disabled = true;
         alert("Plant died listening to Lo-fi")
     }
-
 }
 
 let drinkBtn = document.querySelector(".button1")
