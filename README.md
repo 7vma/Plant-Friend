@@ -25,62 +25,62 @@ Start
 
 Main menu
 
-- Tips
-- section gives tips on how to play game
+Tips
+- Section gives tips on how to play game
 
 - Plants need water to live if you forget to water your plant friend he might shrivel up and die! If you give your plant friend too much water they can also rot and die!
-WP = Water Points.
-Keep your WP above 0 and below 200 or else you will lose the game.
+-WP = Water Points.
+-Keep your WP above 0 and below 200 or else you will lose the game.
 
 
 - Plants need the sun in order to grow and thrive, at the same time be careful to not give it too much sun or else it can kill your plant.
-SP = Sun Points
-Keep your SP above 0 and below 200 or else you will lose the game.
+-SP = Sun Points
+-Keep your SP above 0 and below 200 or else you will lose the game.
 
-each command button takes up a turn
--each turn lowers WP & SP by 10
+Each command button takes up a turn
+-Each turn lowers WP & SP by 10
 
-- Water command / button
-gives your plant water.
+Water command / button
+-Gives your plant water.
 Raises WP by 25 points
 - 1 turn is passed and -10WP & -10SP.
 
-- Sunbathe command / button
-Give your plant sun.
+Sunbathe command / button
+-Give your plant sun.
 Raises SP by 25 points
 - 1 turn is passed and -10WP & -10SP.
 
-- Play lofi and chill command / button
-Chills for the turn.
+Play lofi and chill command / button
+- Chills for the turn.
 WP & SP reduction of -10 points.
 - 1 turn is passed and -10WP & -10SP.
 
-- Game Over 
-When WP & SP either reach 0 or 200 the game ends.
-alert goes up with either "Game Over" or "Plant died listening to Lo-fi" depending on which type of loss it was.
+Game Over 
+- When WP & SP either reach 0 or 200 the game ends.
+- Alert goes up with either "Game Over" or "Plant died listening to Lo-fi" depending on which type of loss it was.
 - command Buttons are then disabled
 
-- Re-do Button
-resets the game to the starting point
-refreshes WP & SP back to 100.
+Re-do Button
+-Resets the game to the starting point
+Refreshes WP & SP back to 100.
 - enables command buttons
 
 PLANNED FUTURE ENHANCEMENTS
 
-- ADD CACTUS CLASS
-new class for an increased difficulty.
+ADD CACTUS CLASS
+- New class for an increased difficulty.
 
 ADD IMAGES WITH EACH COMMAND
--water
--sun
--music
+-Water
+-Sun
+-Music
 
 BUTTON CLICK COUNTER & FUNCTION 
-at 8, 16, 24, and 48 clicks the image of the plant will change
+-At 8, 16, 24, and 48 clicks the image of the plant will change
 from seed to mature plant
 
 CREATE START GAME SCREEN
-Create a background color with a start game button int he middle
+-Create a background color with a start game button int he middle
 once clicked, the opacity of that background and button will dissapear and game starts
 
 ******************************************************************************************************
@@ -90,7 +90,7 @@ PAIN POINTS / GROWTH OPPORTUNITIES
 This project was difficult and fun at the same time.
 it left me between super productive when it came time to work on CSS and also spent way too much time being lost in CSS.
 
-overall, with all the CSS time that was spent the more I realized that I really enjoy that aspect of the project.
+Overall, with all the CSS time that was spent the more I realized that I really enjoy that aspect of the project.
 
 JS on the other hand was something that I was scared to figure out since I still didnt feel confident with my function skills.
 
