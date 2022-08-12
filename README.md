@@ -5,7 +5,8 @@ This is a virtual pet style game, where the player has the hard task of not kill
 This type of game will test your skill to see if you have what it takes to keep your plant alive. 
 
 SCREENSHOT
-![alt text](https://imgur.com/a/GO2QZtB)
+
+![main screen](https://imgur.com/a/GO2QZtB)
 
 Technologies used: HTML, CSS, JavaScript, Adobe Illustrator, Adobe Photoshop
 
@@ -91,7 +92,7 @@ once clicked, the opacity of that background and button will dissapear and game 
 ******************************************************************************************************
 
 PAIN POINTS / GROWTH OPPORTUNITIES
- 
+
 This project was difficult and fun at the same time.
 it left me between super productive when it came time to work on CSS and also spent way too much time being lost in CSS.
 
