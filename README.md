@@ -23,7 +23,10 @@ Start
 
 - Re-do button resets the game to the starting point with starting Stats starting back at 100.
 
+
+
 Main menu
+
 
 Tips
 - Section gives tips on how to play game
@@ -37,16 +40,18 @@ Tips
 -SP = Sun Points
 -Keep your SP above 0 and below 200 or else you will lose the game.
 
+
 Each command button takes up a turn
 -Each turn lowers WP & SP by 10
 
+
 Water command / button
--Gives your plant water.
+- Gives your plant water.
 Raises WP by 25 points
 - 1 turn is passed and -10WP & -10SP.
 
 Sunbathe command / button
--Give your plant sun.
+- Give your plant sun.
 Raises SP by 25 points
 - 1 turn is passed and -10WP & -10SP.
 
@@ -61,9 +66,9 @@ Game Over
 - command Buttons are then disabled
 
 Re-do Button
--Resets the game to the starting point
+- Resets the game to the starting point
 Refreshes WP & SP back to 100.
-- enables command buttons
+- Enables command buttons
 
 PLANNED FUTURE ENHANCEMENTS
 
@@ -71,16 +76,16 @@ ADD CACTUS CLASS
 - New class for an increased difficulty.
 
 ADD IMAGES WITH EACH COMMAND
--Water
--Sun
--Music
+- Water
+- Sun
+- Music
 
 BUTTON CLICK COUNTER & FUNCTION 
--At 8, 16, 24, and 48 clicks the image of the plant will change
+- At 8, 16, 24, and 48 clicks the image of the plant will change
 from seed to mature plant
 
 CREATE START GAME SCREEN
--Create a background color with a start game button int he middle
+- Create a background color with a start game button int he middle
 once clicked, the opacity of that background and button will dissapear and game starts
 
 ******************************************************************************************************
