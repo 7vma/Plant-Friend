@@ -6,7 +6,7 @@ This type of game will test your skill to see if you have what it takes to keep 
 
 SCREENSHOT
 
-![main screen](https://imgur.com/Uh2y77c)
+![Alt Text](https://i.imgur.com/Uh2y77c.png)
 
 Technologies used: HTML, CSS, JavaScript, Adobe Illustrator, Adobe Photoshop
 
