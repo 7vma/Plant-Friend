@@ -1,147 +1,107 @@
-# PROJECT 1! **Browser-based Game**
+*****************************************************************INTRO******************************************************
+Welcome to "Plant Friend"
 
-## **Overview**
+This is a virtual pet style game, where the player has the hard task of not killing his plant.
+This type of game will test your skill to see if you have what it takes to keep your plant alive. 
 
-Your first SEI project will start out with something fun - **a game!**
+SCREENSHOT
+![alt text](https://imgur.com/a/GO2QZtB)
 
-Thanks to the amount of logic there is in a game, there's no better app than a game to teach you how to **think like a programmer**!
+Technologies used: HTML, CSS, JavaScript, Adobe Illustrator, Adobe Photoshop
 
-Everyone will get a chance to **be creative**, and work through some really **tough programming challenges**. You got your feet wet with Tic-Tac-Toe, and we built a game or two during class - now it's time to step it up a notch.
-
-**You will be working individually for this project**. However, your instructors and instructor assistants will be guiding you along with up to ten 15-minute one-on-one sessions. Be sure to use them wisely :).
-
-As a reminder, GA has a zero plagiarism policy - your project's code **must be substantially yours**. **Do not copy code from other similar projects or other sources**. However, using lines of code from StackOverflow to accomplish general techniques/algorithms is okay - an example would be using StackOverflow as a source for code that replaces a character at a certain position in a string.
-
----
-
-## **Planning & Presentation Requirements**
-
-### **Planning - Due By BOD August 8, 2022**
-
-- You will share:
-    
-    ☐ Your choice of game.
-    
-    ☐ A wireframe of your "main" game screen. (Many students find [https://www.figma.com/](https://www.figma.com/) helpful)
-    
-    ☐ Pseudocode for the overall gameplay.
-
-### **Presentation - Friday, August 12th:**
-
-You will have a maximum of 10 minutes to present your project following these guidelines:
-
-1. **Introduce the Project:**
-    
-    ☐ Intro your game by paraphrasing the README.
-    
-2. **Demonstrate the Project:**
-    
-    ☐ Launch the game by clicking the link in the README.
-    
-    ☐ Play the game! If necessary, manipulate the values of variables in the console to ensure a quick win or loss.
-    
-3. **Show/discuss your code:**
-    
-    ☐ Briefly show the HTML & CSS.
-    
-    ☐ Show the JavaScript and discuss your favorite function.
-    
-4. **Share the experience:**
-    
-    ☐ What was your biggest challenge?
-    
-    ☐ What are your key learnings/takeaways?
-    
-5. **Q & A + Feedback**
-
----
-
-## **Technical Requirements**
-
-### **Your App Must:**
-
-☐ **Render a game in the browser**.
-
-☐ **Include win and/or loss logic and render win/loss messages in HTML.** Popup alerts using the `alert()` method are okay during development, but not production.
-
-☐ Include separate HTML, CSS & JavaScript files.
-
-☐ Have **properly indented HTML, CSS & JavaScript**. In addition, vertical whitespace needs to be consistent.
-
-☐ No remaining **dead and/or commented out code** (code that will never be called).
-
-☐ Have functions and variables that are named sensibly. Remember, functions are typically named as verbs, and variables (data) are named as nouns.
-
-☐ **Be coded in a consistent** manner. For example, choose between your preference for function declarations vs. function expressions.
-
-☐ **Deploy your game online** using GitHub Pages so that the rest of the world can play your game!
-
----
-
-## **Necessary Deliverables**
-
-☐ The code for **a working game that meets or exceeds the above technical requirements, built by you, and hosted on GitHub Pages** (covered next week).
-
-- **A `README.md` file** with these sections:
-    
-    ☐ **<Your game's title>**: A description of your game. Background info of the game is a nice touch.
-    
-    ☐ **Screenshot(s):** Images of your actual game.
-    
-    ☐ **Technologies Used**: List of the technologies used, e.g., JavaScript, HTML, CSS...
-    
-    ☐ **Getting Started**: In this section include the link to your deployed game and any instructions you deem important.
-    
-    ☐ **Next Steps**: Planned future enhancements (icebox items).
-    
-    > Note: Don't underestimate the value of a well-crafted README.md. The README.md introduces your project to prospective employers and forms their first impression of your work!
-    > 
-
-☐ **Frequent commits dating back to the very beginning of the project**. Commit messages should be in the present tense, e.g., "Style game board" instead of "Styled game board". **Be sure to create the repo on your personal GitHub account and ensure that it is "public".**
-
----
-
-## **Choose From the Following Games**
-
-> Note: Games are listed in approximate order of increasing difficulty.
-> 
-0. **Tamagotchi**
-1. **Trivia game**
-2. **War** (the card game)
-3. **Blackjack**
-4. **Slot Machine**
-5. **Simon** (warning: will require asynchronous timing)
-6. **2048**
-7. **Minesweeper**
-8. **Checkers** (no AI required - player vs. player is fine)
-9. **Solitaire**
-10. **Battleship** (would require a little AI to implement a computer opponent)
-
-**If you have a game not on the list that you'd like to code, please be sure to get approval from your instructor!**
-
-> *IMPORTANT: Because it's important to demonstrate your ability to perform DOM manipulation using JavaScript, all games should be DOM-based, **not canvas-based**.*
-> 
-
----
-
-## **Suggestions**
-
-- **The BEST advice is to follow the guidelines and principles in the** [Guide to Building a Browser App](https://gist.github.com/jim-clark/6f1919291f6007b2c0b2c93d925d6bac). The guide will give you a step-by-step process to get you started and its MVC design pattern will result in clearer, more concise code that can scale functionality more easily.
-- **Theme your game** to give it a more personal touch and make it more unique!
-- **Use your Development Tools** (`console.log`, DevTools' debugger, `alert` statements) to debug and solve issues.
-- Stick with the **KISS (Keep It Simple Stupid)** principle. Minimum Viable Product (MVP) functionality that looks great is better than extra functionality added to a game without polish.
-- If you choose a card-based game, there is a CSS library in the *resources* directory of the class repo that will help you render **beautiful** cards of any size, front and back.
-- **Commit early, commit often.** Don’t be afraid to break something because you can always go back in time to a previous version.
-- **Consult documentation and other resources** to better understand methods, etc.
-- Write **DRY (Don't Repeat Yourself)** code. Check for repeating code and refactor into functions that accept arguments.
-
----
-
-## **Project Feedback + Evaluation**
-
-- Your instructors will be evaluating your project during your demonstration as well as reviewing the code in your repo.
-- If your instructors determine that your project does not meet the above requirements (denoted using checkboxes), you will be given 3 calendar days to address the deficiencies identified. However, be aware that **there is only a single opportunity to resubmit a project during the course**. For example, if you have to resubmit Project 1, you will not have an opportunity to resubmit Projects 2, 3, or 4.
-- Immediately after your presentation, your instructor and/or outcomes may provide you with feedback that will benefit your project and perhaps the projects of other students as well.
-- If there is a specific section of code that you would like an instructor to provide additional feedback on, please ask!
+<strong>Play game here<strong>
+https://7vma.github.io/Plant-Friend/
 
 
+*****************************************************************VARIATIONS*************************************************
+
+Plant
+
+- Plants love frequent water but hate too much water. 
+Be careful with how much you water, you may kill your plant!
+- Plants need the sun to stay alive but if you give it too much sun then you will end up killing your plant!
+
+*******************************************************************GAMEPLAY*************************************************
+
+Start
+- AutoStarts the game and ends when WP or SP reaches 0 or 200.
+
+- Re-do button resets the game to the starting point with starting Stats starting back at 100.
+
+Main menu
+
+- Tips
+- section gives tips on how to play game
+
+- Plants need water to live if you forget to water your plant friend he might shrivel up and die! If you give your plant friend too much water they can also rot and die!
+WP = Water Points.
+Keep your WP above 0 and below 200 or else you will lose the game.
+
+
+- Plants need the sun in order to grow and thrive, at the same time be careful to not give it too much sun or else it can kill your plant.
+SP = Sun Points
+Keep your SP above 0 and below 200 or else you will lose the game.
+
+each command button takes up a turn
+-each turn lowers WP & SP by 10
+
+- Water command / button
+gives your plant water.
+Raises WP by 25 points
+- 1 turn is passed and -10WP & -10SP.
+
+- Sunbathe command / button
+Give your plant sun.
+Raises SP by 25 points
+- 1 turn is passed and -10WP & -10SP.
+
+- Play lofi and chill command / button
+Chills for the turn.
+WP & SP reduction of -10 points.
+- 1 turn is passed and -10WP & -10SP.
+
+- Game Over 
+When WP & SP either reach 0 or 200 the game ends.
+alert goes up with either "Game Over" or "Plant died listening to Lo-fi" depending on which type of loss it was.
+- command Buttons are then disabled
+
+- Re-do Button
+resets the game to the starting point
+refreshes WP & SP back to 100.
+- enables command buttons
+
+PLANNED FUTURE ENHANCEMENTS
+
+- ADD CACTUS CLASS
+new class for an increased difficulty.
+
+ADD IMAGES WITH EACH COMMAND
+-water
+-sun
+-music
+
+BUTTON CLICK COUNTER & FUNCTION 
+at 8, 16, 24, and 48 clicks the image of the plant will change
+from seed to mature plant
+
+CREATE START GAME SCREEN
+Create a background color with a start game button int he middle
+once clicked, the opacity of that background and button will dissapear and game starts
+
+******************************************************************************************************
+
+PAIN POINTS / GROWTH OPPORTUNITIES
+ 
+This project was difficult and fun at the same time.
+it left me between super productive when it came time to work on CSS and also spent way too much time being lost in CSS.
+
+overall, with all the CSS time that was spent the more I realized that I really enjoy that aspect of the project.
+
+JS on the other hand was something that I was scared to figure out since I still didnt feel confident with my function skills.
+
+I was scared to ask for help because I also didnt know what exactly I was trying to do.
+I did research and watched tutorials on how to implement something and by the end of the project I knew what I exactly I was looking for rather than just being completely lost. 
+
+I spent hours working on a progress bar / health bar and in the end and with the help of classmates and instructors, I found something else that I liked even more.
+
+CSS was my pain point in the end because I never did find out how to line things up exactly how I wanted. but everything else was an amazing growth opportunity and in a week of working independently I've come to learn alot from learning from making mistakes.
