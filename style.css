@@ -6,7 +6,7 @@ body {
 .top {
     font-family: 'Gloria Hallelujah', cursive;
     background-color: rgba(239, 239, 239, .8);
-    border-radius: 30px;
+    border-radius: 10px;
     box-shadow: 10px;
     text-align: center;
     justify-content: center;
@@ -37,29 +37,33 @@ h3 {
 
 .image3 {
     display: flex;
-    justify-content: center;
-    height: 500px;
-    width: 300px;
-    margin: -3in 0 0 335px;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: -320px;
+    margin-left: 450px;
 }
 
 h4 {
+    display: flex;
     text-align: center;
     margin-top: 70px;
-    margin-right: 950px;
+    margin-right: 850px;
     margin-left: 30px;
     background-color: rgba(239, 239, 239, .8);
-    border-radius: 30px;
+    border-radius: 10px;
     justify-content: center;
+    width: 200px;
 }
 
 .plantStats {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 30px;
     background-color: rgba(239, 239, 239, .8);
     margin: 0 230px 0 230px;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .command-buttons {
@@ -105,4 +109,9 @@ h4 {
 .button4 {
     border-radius: 50px;
     font-family: 'Gloria Hallelujah', cursive;
+}
+.seedling-leaf {
+    display: flexbox;
+    height: 500px;
+    width: 500px;
 }

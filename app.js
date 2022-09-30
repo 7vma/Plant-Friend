@@ -1,5 +1,6 @@
 let waterDisplay = document.querySelector(".water")
 let sunDisplay = document.querySelector(".sun")
+//let lightDisplay = document.querySelector(".light")
 
 function resetGame() {
     if (document.querySelector(".button1").disabled = true) {
@@ -8,8 +9,10 @@ function resetGame() {
         document.querySelector(".button3").disabled = false;
         pluto.waterPoints = 100;
         pluto.sunPoints = 100;
+        // pluto.lightPoints = 100;
         waterDisplay.innerText = pluto.waterPoints
         sunDisplay.innerText = pluto.sunPoints
+        // sunDisplay.innerText = pluto.sunPoints
     }
 }
 class Plant {
@@ -17,24 +20,31 @@ class Plant {
         this.name = name;
         this.waterPoints = 100;
         this.sunPoints = 100;
+        // this.lightPoints = 100;
     }
     drink() {
         this.waterPoints = this.waterPoints + 25;
         //turn inverval included into each command
         this.sunPoints = this.sunPoints - 10;
+        // this.lightPoints = this.lightPoints - 10;
         this.waterPoints = this.waterPoints - 10;
         waterDisplay.innerText = this.waterPoints
         sunDisplay.innerText = this.sunPoints
+        // lightDisplay.innerText = this.lightPoints
         overKill()
         kill()
     }
 
+    //Light
     sunbathe() {
         this.sunPoints = this.sunPoints + 25;
+        // this.lightPoints = this.lightPoints + 25;
         //turn inverval included into each command
         this.sunPoints = this.sunPoints - 10;
+        // this.lightPoints = this.lightPoints - 10;
         this.waterPoints = this.waterPoints - 10;
         sunDisplay.innerText = this.sunPoints
+        // lightDisplay.innerText = this.lightPoints
         waterDisplay.innerText = this.waterPoints
         overKill()
         kill()
@@ -45,9 +55,11 @@ class Plant {
         this.waterPoints = this.waterPoints - 15;
         //turn inverval included into each command
         this.sunPoints = this.sunPoints - 10;
+        // this.lightPoints = this.lightPoints - 10;
         this.waterPoints = this.waterPoints - 10;
         waterDisplay.innerText = this.waterPoints
         sunDisplay.innerText = this.sunPoints
+        
         overKill()
         kill()
         return alert("*Lo-fi music starts playing in the background*")
@@ -58,6 +70,7 @@ const pluto = new Plant("pluto")
 
 function overKill() {
     if (pluto.waterPoints >= 200 || pluto.sunPoints >= 200) {
+    // if (pluto.waterPoints >= 200 || pluto.lightPoints >= 200) {
         document.querySelector(".button1").disabled = true;
         document.querySelector(".button2").disabled = true;
         document.querySelector(".button3").disabled = true;
@@ -67,6 +80,7 @@ function overKill() {
 
 function kill() {
     if (pluto.waterPoints <= 0 || pluto.sunPoints <= 0) {
+    // if (pluto.waterPoints <= 0 || pluto.sunPoints <= 0) {
         document.querySelector(".button1").disabled = true;
         document.querySelector(".button2").disabled = true;
         document.querySelector(".button3").disabled = true;
@@ -80,7 +94,9 @@ drinkBtn.addEventListener("click", () => pluto.drink())
 
 
 let sunBtn = document.querySelector(".button2")
+// let sunBtn = document.querySelector(".button2")
 sunBtn.addEventListener("click", () => pluto.sunbathe())
+// lightBtn.addEventListener("click", () => pluto.light())
 // makes sunbathe attach to button2
 
 let musicBtn = document.querySelector(".button3")
